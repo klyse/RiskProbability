@@ -1,4 +1,4 @@
-﻿namespace RiskProbability.Domain
+﻿namespace RiskProbability.Application
 {
 	public class Probability
 	{
@@ -82,10 +82,20 @@
 
 		public static double GetProbability(int attacker, int defender)
 		{
+			attacker = attacker - 1;
+			defender = defender - 1;
+
 			attacker = attacker > Probabilities.GetLength(1) ? Probabilities.GetLength(1) : attacker;
 			defender = defender > Probabilities.GetLength(0) ? Probabilities.GetLength(0) : defender;
 
 			return Probabilities[defender, attacker];
+		}
+
+		public static string GetProbabilityString(int attacker, int defender)
+		{
+			var prob = GetProbability(attacker, defender);
+
+			return $"{prob * 100}%";
 		}
 	}
 }

@@ -5,7 +5,7 @@ using Xamarin.Forms.Xaml;
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace RiskProbability
 {
-	public partial class App : Application
+	public partial class App : Xamarin.Forms.Application
 	{
 		public App()
 		{
