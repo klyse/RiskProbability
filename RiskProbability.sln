@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiskProbability.Domain", "R
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiskProbability.Domain.Test", "RiskProbability.Domain.Test\RiskProbability.Domain.Test.csproj", "{89565F92-E3A7-4566-8E67-A50CA01F4903}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiskProbability.Application", "RiskProbability.Application\RiskProbability.Application.csproj", "{A32F8DC9-D9AF-452F-9D22-EFB39DAA2D1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiskProbability.Application", "RiskProbability.Application\RiskProbability.Application.csproj", "{A32F8DC9-D9AF-452F-9D22-EFB39DAA2D1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiskProbability.Application.Test", "RiskProbability.Application.Test\RiskProbability.Application.Test.csproj", "{9A5E7F0B-89A7-4083-9BB0-0947D6E31512}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiskProbability.Application.Test", "RiskProbability.Application.Test\RiskProbability.Application.Test.csproj", "{9A5E7F0B-89A7-4083-9BB0-0947D6E31512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiskProbability.Console", "RiskProbability.Console\RiskProbability.Console.csproj", "{F684487B-EE7F-466A-A8CF-62523E1C0B19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -533,6 +535,54 @@ Global
 		{9A5E7F0B-89A7-4083-9BB0-0947D6E31512}.Release|x64.Build.0 = Release|Any CPU
 		{9A5E7F0B-89A7-4083-9BB0-0947D6E31512}.Release|x86.ActiveCfg = Release|Any CPU
 		{9A5E7F0B-89A7-4083-9BB0-0947D6E31512}.Release|x86.Build.0 = Release|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Ad-Hoc|Any CPU.ActiveCfg = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Ad-Hoc|Any CPU.Build.0 = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Ad-Hoc|ARM.ActiveCfg = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Ad-Hoc|ARM.Build.0 = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Ad-Hoc|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Ad-Hoc|x64.ActiveCfg = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Ad-Hoc|x64.Build.0 = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Ad-Hoc|x86.ActiveCfg = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Ad-Hoc|x86.Build.0 = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.AppStore|Any CPU.Build.0 = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.AppStore|ARM.ActiveCfg = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.AppStore|ARM.Build.0 = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.AppStore|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.AppStore|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.AppStore|x64.ActiveCfg = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.AppStore|x64.Build.0 = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.AppStore|x86.ActiveCfg = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.AppStore|x86.Build.0 = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Debug|ARM.Build.0 = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Debug|x64.Build.0 = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Debug|x86.Build.0 = Debug|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Release|ARM.ActiveCfg = Release|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Release|ARM.Build.0 = Release|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Release|iPhone.Build.0 = Release|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Release|x64.ActiveCfg = Release|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Release|x64.Build.0 = Release|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Release|x86.ActiveCfg = Release|Any CPU
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -546,6 +596,7 @@ Global
 		{89565F92-E3A7-4566-8E67-A50CA01F4903} = {E6AC3118-7A5A-4534-A862-2B773E8B41ED}
 		{A32F8DC9-D9AF-452F-9D22-EFB39DAA2D1F} = {0D716380-E7D9-420C-98B9-51C60AB0120B}
 		{9A5E7F0B-89A7-4083-9BB0-0947D6E31512} = {E6AC3118-7A5A-4534-A862-2B773E8B41ED}
+		{F684487B-EE7F-466A-A8CF-62523E1C0B19} = {CCE1CC3E-7496-482B-A9DD-D634897BE476}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83F00A51-D2E1-43A9-8CAB-DED0C94DAC02}
