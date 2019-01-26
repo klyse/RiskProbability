@@ -15,9 +15,8 @@ namespace RiskProbability
 			InitializeComponent();
 		}
 
-		private void Button_OnClicked(object sender, EventArgs e)
+		private async void NewFight_OnClicked(object sender, EventArgs e)
 		{
-			lbl.Text = Probability.GetProbabilityString(4, 4);
 		}
 	}
 }

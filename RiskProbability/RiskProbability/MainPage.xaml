@@ -1,15 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:RiskProbability"
-             x:Class="RiskProbability.MainPage">
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:local="clr-namespace:RiskProbability"
+			 x:Class="RiskProbability.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-		<Button Clicked="Button_OnClicked"></Button>
-        <Label x:Name="lbl"
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
-
+	<StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+		<Label Text="Risk Probability"/>
+		<Button Text="New fight" Clicked="NewFight_OnClicked"></Button>
+	</StackLayout>
 </ContentPage>
